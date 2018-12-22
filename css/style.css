@@ -1,23 +1,6 @@
-/* 
-Убрать OUTLINE
-*/
 
-:root {
-	--active-color: #f39c12;
-	--header-color: #0d0d0d;
-	--border-color1: #e6e6e6;
-	--border-color2: #f2f2f2;
-	--border-color3: #e8f8f4;
-	--unactive-color: #999999;
-	--description-color-: #737373;
-	--date-color: #808080;
-	--photo-bg-color: #b7b7b7;
-	--photo-desc-color: #595959;
-	--heading-color: #4d4d4d;
-	--team-unactive-color: #cccccc;
-}
 
-/* GLOBAL MARKUP (BEGIN) */
+/* GLOBAL MARKUP (START) */
 
 .wrapper {
 	width: 1970px;
@@ -26,7 +9,7 @@
 	font-family: 'Open Sans', sans-serif;
 }
 
-.jungleBlock {
+.wideBlock {
 	background: url(../img/jungle_bg.png) no-repeat center;
 	margin: 100px 0;
 	height: 700px;
@@ -35,54 +18,59 @@
 	justify-content: center;
 }
 
-.whiteBlock {
-	outline: 1px solid red;
+.narrowBlock {
 	width: 1132px;
-	/* height: 500px; */
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
 }
 
-
 /* GLOBAL MARKUP (END) */
 
-/* HEADING MARKUP (BEGIN) */
+/* TEST MARKUP (START) */
+
+.TEST {
+	outline: 1px solid red;
+	display: block;
+	background: none;
+	/* background-color: rgb(235, 220, 227); */
+}
+
+.TEST .ICONS {
+	outline: 1px solid red;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.TEST .TEXTS {
+	outline: 1px solid red
+}
+
+/* TEST MARKUP (END) */
+
+/* HEADING MARKUP (START) */
 
 .heading {
-	position: relative;
+	display: flex;
+	outline: 1px solid red;
 }
 
 .heading__header {
-	color: var(--header-color);
-	font-size: 30px;
-	font-weight: 700;
-	line-height: 25px;
-	text-transform: uppercase;
-	position: absolute;
-	transform: translate(calc(-100% + 185px));
+	padding-right: 15px;
+	width: 185px;
+	display: flex;
+	flex-shrink: 0;
+	justify-content: flex-end;
+	align-items: center;
 }
 
 .heading__description {
-	color: var(--heading-color);
-	font-size: 16px;
-	text-transform: uppercase;
-	line-height: 25px;
 	border-left: 4px solid var(--active-color);
-	margin-left: 200px;
 	padding-left: 15px;
-	display: block;
 }
 
 /* HEADING MARKUP (END) */
 
-/* about (BEGIN) */
-
-.about {
-	/* height: 1183px; */
-}
-
-/* about (END) */
 
 
-test changes
