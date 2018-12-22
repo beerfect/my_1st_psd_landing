@@ -1,0 +1,88 @@
+/* 
+Убрать OUTLINE
+*/
+
+:root {
+	--active-color: #f39c12;
+	--header-color: #0d0d0d;
+	--border-color1: #e6e6e6;
+	--border-color2: #f2f2f2;
+	--border-color3: #e8f8f4;
+	--unactive-color: #999999;
+	--description-color-: #737373;
+	--date-color: #808080;
+	--photo-bg-color: #b7b7b7;
+	--photo-desc-color: #595959;
+	--heading-color: #4d4d4d;
+	--team-unactive-color: #cccccc;
+}
+
+/* GLOBAL MARKUP (BEGIN) */
+
+.wrapper {
+	width: 1970px;
+	margin: 0 auto;
+	outline: 1px solid red;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.jungleBlock {
+	background: url(../img/jungle_bg.png) no-repeat center;
+	margin: 100px 0;
+	height: 700px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.whiteBlock {
+	outline: 1px solid red;
+	width: 1132px;
+	/* height: 500px; */
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+
+/* GLOBAL MARKUP (END) */
+
+/* HEADING MARKUP (BEGIN) */
+
+.heading {
+	position: relative;
+}
+
+.heading__header {
+	color: var(--header-color);
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 25px;
+	text-transform: uppercase;
+	position: absolute;
+	transform: translate(calc(-100% + 185px));
+}
+
+.heading__description {
+	color: var(--heading-color);
+	font-size: 16px;
+	text-transform: uppercase;
+	line-height: 25px;
+	border-left: 4px solid var(--active-color);
+	margin-left: 200px;
+	padding-left: 15px;
+	display: block;
+}
+
+/* HEADING MARKUP (END) */
+
+/* about (BEGIN) */
+
+.about {
+	/* height: 1183px; */
+}
+
+/* about (END) */
+
+
+test changes
