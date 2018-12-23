@@ -10,98 +10,36 @@
     flex-shrink: 0;
 }
 
-/* about */
-.icon_size125_fz40_col000 {
-    width: 125px;
-    height: 125px;
-    font-size: 40px;
-    color: #000;
-}
+.icon_size-34 {width: 34px;height: 34px;}
+.icon_size-40 {width: 40px;height: 40px;}
+.icon_size-100 {width: 100px;height: 100px;}
+.icon_size-125 {width: 125px;height: 125px;}
+.icon_size-105 {width: 105px;height: 105px;}
+.icon_size-170 {width: 170px;height: 170px;}
+.icon_size-200 {width: 200px;height: 200px;}
 
-.icon_sz125_fz40 {
-    width: 125px;
-    height: 125px;
-    font-size: 40px;
-}
+.icon_fill-activeColor {fill: var(--active-color);}
+.icon_fill-000 {fill: #000;}
+.icon_fill-fff {fill: #fff;}
 
-.icon_color_active_000 {
-    border-color: var(--active-color);
-    color: #000;
-}
+.icon_bdc-activeColor {border-color: var(--active-color);}
+.icon_bdc-borderColor1 {border-color: var(--border-color1);}
+.icon_bdc-fff {border-color: #fff;}
+.icon_bdc-none {border: none;}
 
-/* team */
+.icon_bgc-borderColor3 {background-color: var(--border-color3);}
+.icon_bgc-activeColor {background-color: var(--active-color);}
 
-.icon_sz200_fz62 {
-    width: 200px;
-    height: 200px;
-    font-size: 62px;
-}
+.icon_boxShadowCustom{box-shadow: inset 0 0 0 4px var(--border-color3);}
+.icon_customHoverable:hover {color: #fff;background-color: var(--active-color);}
 
-.icon_color_custom {
-    background-color: var(--border-color3);
-    border-color: var(--border-color1);
-    color: #fff;
-    box-shadow: inset 0 0 0 4px var(--border-color3);
+.svg-size18 {width: 18px; height: 18px;}
+.svg-size19 {width: 19px; height: 19px;}
+.svg-size25 {width: 25px; height: 25px;}
+.svg-size27 {width: 27px; height: 27px;}
+.svg-size32 {width: 32px; height: 32px;;}
+.svg-size40 {width: 40px; height: 40px;}
+.svg-size62 {width: 62px; height: 62px;}
 
-}
-
-/* facts */
-.icon_sz170_fz32 {
-    width: 170px;
-    height: 170px;
-    font-size: 32px;
-}
-
-.icon_color_active_fff {
-    border-color: var(--active-color);
-    color: #fff;
-}
-
-/* secrvice */
-
-.icon_sz105_fz27 {
-    width: 105px;
-    height: 105px;
-    font-size: 27px;
-}
-
-.icon_hoverable_color_active_fff:hover {
-    color: #fff;
-    background-color: var(--active-color);
-}
-
-/* tweet */
-
-.icon_sz100_fz25 {
-    width: 100px;
-    height: 100px;
-    font-size: 25px;
-}
-
-.icon_color_fff_active {
-    color: var(--active-color);
-    border-color: #fff;
-}
-
-/* contact info */
-.icon_sz34_fz18 {
-    width: 34px;
-    height: 34px;
-    font-size: 18px;
-}
-
-/* google map */
-
-.icon_sz40_fz19 {
-    width: 40px;
-    height: 40px;
-    font-size: 19px;
-}
-
-.icon_color_none_active_fff {
-    border: none;
-    background-color: var(--active-color);
-    color: #fff;
-}
 
 /* ICONS MARKUP (END)*/
