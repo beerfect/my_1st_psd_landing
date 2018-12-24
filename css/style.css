@@ -12,8 +12,8 @@
 	margin: 100px 0;
 	height: 700px;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
-	justify-content: center;
 }
 
 .narrowBlock {
@@ -25,6 +25,16 @@
 }
 
 /* GLOBAL MARKUP (END) */
+
+/* BREAK DIV (START) */
+
+.breakDiv {
+	width: 50px;
+	height: 4px;
+	background-color: var(--active-color);
+}
+
+/* BREAK DIV (END) */
 
 /* HEADING MARKUP (START) */
 
@@ -76,29 +86,53 @@
 	margin-top: 120px;
 }
 
+.ourSkills_showcase {
+	margin-right: 95px;
+}
+
 .skillsDescription_text {
 	display: flex;
+}
+
+.ourSkills_icon {
+	margin-right: 30px;
+}
+
+.ourSkills_text{
+	margin-right: 15px;
+}
+
+.ourSkills_text > h3 {
+	margin-bottom: 20px;	
+}
+
+.ourStory_bars {
+	margin-top: 20px;
+}
+
+.ourStory_bars > span {
+	display: inline-block;
+	margin-top: 40px;
 }
 
 .ourStory_bar {
 	width: 553px;
 	height: 10px;
+	margin-top: 10px;
 }
 
-.ourStory_bar-1 {
-	background-image: linear-gradient(to right, #f39c12 0%, var(--border-color1) 88%, var(--border-color1) 100%);
-}
-
-.ourStory_bar-2 {
-	background-image: linear-gradient(to right, #f39c12 0%, var(--border-color1) 76%, var(--border-color1) 100%);
-}
-
-.ourStory_bar-3 {
-	background-image: linear-gradient(to right, #f39c12 0%, var(--border-color1) 81%, var(--border-color1) 100%);
-}
-
-.ourStory_bar-4 {
-	background-image: linear-gradient(to right, #f39c12 0%, var(--border-color1) 71%, var(--border-color1) 100%);
-}
+.ourStory_bar-1 {background-image: linear-gradient(to right, #f39c12 0%, var(--border-color1) 88%, var(--border-color1) 100%);}
+.ourStory_bar-2 {background-image: linear-gradient(to right, #f39c12 0%, var(--border-color1) 76%, var(--border-color1) 100%);}
+.ourStory_bar-3 {background-image: linear-gradient(to right, #f39c12 0%, var(--border-color1) 81%, var(--border-color1) 100%);}
+.ourStory_bar-4 {background-image: linear-gradient(to right, #f39c12 0%, var(--border-color1) 71%, var(--border-color1) 100%);}
 
 /* ABOUT (END) */
+
+/* QUOTE (START) */
+
+.exeption {width: 1000px;}
+.quote_exception {margin-top: 250px;}
+.quote_breakDiv {margin-top: 30px;}
+.quote_autor {margin-top: 20px;}
+
+/* QUOTE (END) */

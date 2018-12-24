@@ -1,7 +1,10 @@
 /* TEXT MARKUP (START) */
 
 .text{margin: 0;}
+
 .text_tt-uper {text-transform: uppercase;}
+
+.text_ta-center {text-align: center;}
 
 .text_fz-13 {font-size: 13px;}
 .text_fz-14 {font-size: 14px;}
