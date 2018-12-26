@@ -1,0 +1,4 @@
+TO DO!!
+
+Узнать как выровнять по высоте SVG иконки в .person_socialNetworks
+Исправить .person_socialNetworks (сделать SVG ссылкам)
