@@ -140,7 +140,6 @@
 /* TEAM (START) */
 
 .members {
-	/* outline: 1px solid red; */
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -174,17 +173,8 @@
 	background-color: #cccccc;
 }
 
-.socialNetworks {
-	fill: var(--text-color-5);
-	width: 148px;
-	display: flex;
-	justify-content: space-between;
-}
-
-.socianNetwork_link:hover {fill: var(--active-color);}
 .person:hover{background-color: var(--text-color-10);}
 .person:hover > .person_breakDiv {background-color: var(--text-color-1);}
-
 
 .team_members {margin-top: 150px;}
 .person_avatar {margin-top: 30px;}
@@ -192,6 +182,15 @@
 .person_position {margin-top: 5px;}
 .person_breakDiv {margin-top: 10px;}
 .person_description {margin-top: 5px;}
-.person_socialNetworks {margin-top: 25px;margin-bottom: 30px;}
+.person_socNet {margin-top: 25px; margin-bottom: 30px;}
 
 /* TEAM (END) */
+
+/* FOOTER (START) */
+
+.footer {
+	height: 100px;
+	outline: 1px solid red;
+}
+
+/* FOOTER (END) */
