@@ -6,6 +6,33 @@
 
 .text_ta-center {text-align: center;}
 
+.text_fs-italic {font-style: italic;}
+
+.text_ff-lato { font-family: 'Lato', sans-serif;}
+.text_ff-montserrat { font-family: 'Montserrat', sans-serif;}
+.text_ff-pacifico { font-family: 'Pacifico', cursive;}
+
+.text_fw-300 {font-weight: 300;}
+.text_fw-400 {font-weight: 400;}
+.text_fw-600 {font-weight: 600;}
+.text_fw-700 {font-weight: 700;}
+
+.text_ls-m09 {letter-spacing: -0.9px;}
+.text_ls-m24 {letter-spacing: -2.4px;}
+.text_ls-m42 {letter-spacing: -4.2px;}
+.text_ls-m028 {letter-spacing: -0.28px;}
+.text_ls-m032 {letter-spacing: -0.32px;}
+
+.text_color-fff{color: #fff;}
+.text_color-active{color: var(--active-color);}
+.text_color-02{color: var(--color02);}
+.text_color-04{color: var(--color04);}
+.text_color-05{color: var(--color05);}
+.text_color-07{color: var(--color07);}
+.text_color-10{color: var(--color10);}
+.text_color-11{color: var(--color11);}
+.text_color-17{color: var(--color17);}
+
 .text_fz-13 {font-size: 13px;}
 .text_fz-14 {font-size: 14px;}
 .text_fz-15 {font-size: 15px;}
@@ -19,11 +46,6 @@
 .text_fz-45 {font-size: 45px;}
 .text_fz-70 {font-size: 70px;}
 
-.text_fw-300 {font-weight: 300;}
-.text_fw-400 {font-weight: 400;}
-.text_fw-600 {font-weight: 600;}
-.text_fw-700 {font-weight: 700;}
-
 .text_lh-20{line-height: 20px;}
 .text_lh-22{line-height: 22px;}
 .text_lh-24{line-height: 24px;}
@@ -36,29 +58,6 @@
 .text_lh-60{line-height: 60px;}
 .text_lh-80{line-height: 80px;}
 .text_lh-114{line-height: 114px;}
-
-.text_color-fff{color: #fff;}
-.text_color-active{color: var(--active-color);}
-.text_color-1{color: var(--text-color-1);}
-.text_color-2{color: var(--text-color-2);}
-.text_color-3{color: var(--text-color-3);}
-.text_color-4{color: var(--text-color-4);}
-.text_color-5{color: var(--text-color-5);}
-.text_color-6{color: var(--text-color-6);}
-.text_color-7{color: var(--text-color-7);}
-.text_color-8{color: var(--text-color-8);}
-
-.text_ls-m09 {letter-spacing: -0.9px;}
-.text_ls-m24 {letter-spacing: -2.4px;}
-.text_ls-m42 {letter-spacing: -4.2px;}
-.text_ls-m028 {letter-spacing: -0.28px;}
-.text_ls-m032 {letter-spacing: -0.32px;}
-
-.text_ff-lato { font-family: 'Lato', sans-serif;}
-.text_ff-montserrat { font-family: 'Montserrat', sans-serif;}
-.text_ff-pacifico { font-family: 'Pacifico', cursive;}
-
-.text_fs-italic {font-style: italic;}
 
 /* TEXTS MIXINS (END) */
 
@@ -74,6 +73,18 @@
     border-width: 2px;
     flex-shrink: 0;
 }
+.icon_bgc-color01 {background-color: var(--color01);}
+.icon_bgc-color02 {background-color: var(--color02);}
+
+.icon_fill-color01 {fill: var(--color01);}
+.icon_fill-000 {fill: #000;}
+.icon_fill-fff {fill: #fff;}
+.icon_fill-color04 {fill: var(--color04);}
+
+.icon_bdc-color01 {border-color: var(--color01);}
+.icon_bdc-color03 {border-color: var(--color03);}
+.icon_bdc-colorFFF {border-color: #fff;}
+.icon_bdc-none {border: none;}
 
 .icon_size-34 {width: 34px;height: 34px;}
 .icon_size-40 {width: 40px;height: 40px;}
@@ -83,22 +94,6 @@
 .icon_size-170 {width: 170px;height: 170px;}
 .icon_size-200 {width: 200px;height: 200px;}
 
-.icon_fill-activeColor {fill: var(--active-color);}
-.icon_fill-000 {fill: #000;}
-.icon_fill-fff {fill: #fff;}
-.icon-fill-color5 {fill: var(--text-color-5);}
-
-.icon_bdc-activeColor {border-color: var(--active-color);}
-.icon_bdc-borderColor1 {border-color: var(--border-color1);}
-.icon_bdc-fff {border-color: #fff;}
-.icon_bdc-none {border: none;}
-
-.icon_bgc-borderColor3 {background-color: var(--border-color3);}
-.icon_bgc-activeColor {background-color: var(--active-color);}
-
-.icon_boxShadowCustom{box-shadow: inset 0 0 0 4px var(--border-color3);}
-.icon_customHoverable:hover {color: #fff;background-color: var(--active-color);}
-
 .svg-size18 {width: 18px; height: 18px;}
 .svg-size19 {width: 19px; height: 19px;}
 .svg-size25 {width: 25px; height: 25px;}
@@ -107,6 +102,9 @@
 .svg-size40 {width: 40px; height: 40px;}
 .svg-size62 {width: 62px; height: 62px;}
 
+/* вроде как это моэжно удалить, проверь!!! */
+/* .icon_boxShadowCustom{box-shadow: inset 0 0 0 4px var(--color12);}
+.icon_customHoverable:hover {color: #fff;background-color: var(--color01);} */
 
 /* ICONS MIXINS (END)*/
 
@@ -114,57 +112,34 @@
 
 .socNet{display: flex; justify-content: space-between;}
 
-.socNet_fill-color3 > .socNet_a {fill: var(--text-color-3)}
-.socNet_fill-color5 > .socNet_a {fill: var(--text-color-5)}
+.socNet_fill-color04 > .socNet_a {fill: var(--color04);}
+.socNet_fill-color02 > .socNet_a {fill: var(--color02);}
 
 .socNet_a-fill-color3 {fill: var(--text-color-3)}
 .socNet_a-fill-color5 {fill: var(--text-color-5)}
 
-.socNet_a :hover {fill: var(--active-color);}
+.socNet_a :hover {fill: var(--color01);}
 .socNet_size-s { width: 148px;}
 .socNet_size-l { width: 246px;}
 
-.link_twitter {
-    position: relative;
-    top: -0.15em;
-    width: 1.23em;
-    height: 1.23em;
-}
-
-.link_facebook {
-    width: 1em;
-    height: 1em;
-}
-
-.link_linkedIn {
-    position: relative;
-    bottom: .3em;
-    width: 1.38em;
-    height: 1.38em;
-}
-
-.link_dribble {
-    position: relative;
-    bottom: 0.1em;
-    width: 1.2em;
-    height: 1.2em;
-}
-
-.link_printerest {
-    width: 1.15em;
-    height: 1.15em;
-}
-
-.link_googlePlus {
-    position: relative;
-    bottom: 0.3em;
-    width: 1.65em;
-    height: 1.65em;
-}
-
-.link_rss {
-    width: 1em;
-    height: 1em;
-}
+.link_twitter {position: relative;top: -0.15em;width: 1.23em;height: 1.23em;}
+.link_facebook {width: 1em;height: 1em;}
+.link_linkedIn {position: relative;bottom: .3em;width: 1.38em;height: 1.38em;}
+.link_dribble {position: relative;bottom: 0.1em;width: 1.2em;height: 1.2em;}
+.link_printerest {width: 1.15em;height: 1.15em;}
+.link_googlePlus {position: relative;bottom: 0.3em;width: 1.65em;height: 1.65em;}
+.link_rss {width: 1em;height: 1em;}
 
 /* SOCNET MIXINS (END) */ 
+
+/* BREAK DIV MIXINS (START) */
+
+.breakDiv {height: 4px;}
+
+.breakDiv_size-s{width: 20px;}
+.breakDiv_size-l{width: 50px;}
+
+.breakDiv_color-color01 {background-color: var(--color01);}
+.breakDiv_color-color14 {background-color: var(--color14);}
+
+/* BREAK DIV MIXINS (END) */

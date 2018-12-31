@@ -1,22 +1,30 @@
 /* VARIABLES (START) */
 
 :root {
-	--active-color: #f39c12;
-	--border-color1: #e6e6e6;
-	--border-color2: #f2f2f2;
-	--border-color3: #e8f8f4;
-	--photo-bg-color: #b7b7b7;
-	--team-unactive-color: #cccccc;
-	--text-color-1: #e74c3c;
-	--text-color-2: #737373;
-	--text-color-3: #0d0d0d;
-	--text-color-4: #4d4d4d;
-	--text-color-5: #999999;	
-	--text-color-6: #595959;
-	--text-color-7: #808080;
-	--text-color-8: #8c8c8c;
-	--text-color-9: #bfbfbf;
-	--text-color-10: #f0f0f0;
+	--color01: #f39c12;
+	--color02: #0d0d0d;
+	--color03: #e6e6e6;
+	--color04: #999999;
+	--color05: #737373;
+	--color06: #f2f2f2;
+	--color07: #808080;
+	--color08: #000000;
+	--color09: #b7b7b7;
+	--color10: #595959;
+	--color11: #4d4d4d;
+	--color12: #e8f8f4;
+	--color13: #f7f7f7;
+	--color14: #cccccc;
+	--color15: #c7c7c7;
+	--color16: #d9d9d9;
+	--color17: #e74c3c;
+	--color18: #1a1a1a;
+	--color19: #00ce9b;
+	--color20: #614261;
+	--color21: #3c44e7;
+	--color22: #fafafa;
+	--color23: #f0f0f0;
+	--color24: #34495e;
 }
 
 /* VARIABLES (END) */
