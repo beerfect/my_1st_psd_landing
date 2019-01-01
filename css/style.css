@@ -23,9 +23,6 @@
 .narrowBlock {
 	width: 1170px;
 	margin: 0 auto;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 }
 
 /* GLOBAL MARKUP (END) */
@@ -127,7 +124,9 @@
 
 .footer {
 	height: 100px;
-	outline: 1px solid red;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 /* FOOTER (END) */
