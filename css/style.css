@@ -1,9 +1,13 @@
 /* GLOBAL MARKUP (START) */
 
+.outline-red {outline: 1px solid red;}
+.outline-blue {outline: 1px solid blue;}
+.outline-green {outline: 1px solid green;}
+.outline-yellow {outline: 1px solid yellow;}
+
 .wrapper {
 	width: 1970px;
 	margin: 0 auto;
-	outline: 1px solid red;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -110,6 +114,14 @@
 .person_socNet {margin-top: 25px; margin-bottom: 30px;}
 
 /* TEAM (END) */
+
+/* FACTS (START) */
+
+.facts_content {margin-top: 194px;width: 1170px;display: flex;justify-content: space-between;}
+.facts_item:hover > .facts_icon {border-color: #fff;fill: var(--color01);}
+.item_description {margin-top: 30px;}
+
+/* FACTS (END) */
 
 /* FOOTER (START) */
 
