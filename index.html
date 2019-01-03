@@ -20,7 +20,7 @@
     font-family: 'Pacifico', cursive; 
     -->
 
-    <!-- 
+    <!--  Паттерн для иконок
     <div class="icon icon_size-125 icon_fill-color01 icon_bdc-color01">
         <svg class="svg-size32" viewBox="0 0 10 10" role="img" focusable="false" aria-hidden="true">
             <path d="m1 7h8v2h-8zm0-3h8v2h-8zm0-3h8v2h-8z" />
@@ -33,6 +33,10 @@
 
 <body>
     <div class="wrapper outline-green">
+        <div class="header">
+            <button class="button button_size-l button-hoverable button_borderColor-fff button_textColor-fff">Learn
+                more</button>
+        </div>
         <div class="narrowBlock about">
             <div class="heading">
                 <h2 class="heading__header text text_fz-30 text_fw-700 text_lh-25 text_color-3 text_tt-uper">About</h2>
@@ -384,6 +388,9 @@
                     elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a
                     sit amet</p>
             </div>
+
+            <button class="button button_size-m button-hoverable button_borderColor-01 button_textColor-02">Purchase</button>
+
         </div>
         <div class="wideBlock testimonial"></div>
         <div class="narrowBlock works">
@@ -406,10 +413,13 @@
                     elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a
                     sit amet</p>
             </div>
+
+            <button class="button button_size-s button-hoverable button_borderColor-01 button_textColor-02">Read On</button>
+
         </div>
         <div class="wideBlock clients"></div>
         <div class="narrowBlock contact">
-            <div class="heading">
+            <div class="heading contact_heading">
                 <h2 class="heading__header text text_fz-30 text_fw-700 text_lh-25 text_color-3 text_tt-uper">Contact</h2>
                 <p class="heading__description text_fz-16 text_tt-uper text_lh-25 text_color-11">Proin gravida nibh vel
                     velit auctor aliquet. Aenean sollicitudin, lorem
@@ -417,6 +427,58 @@
                     elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a
                     sit amet</p>
             </div>
+
+            <div class="contactWrapper">
+                <div class="contact_form form ">
+                    <h4 class="info_h4 text text_tt-uper text_fz-20 text_color-02">Drop Us A Message</h4>
+                    <form action="" id="feedBackForm" method="POST " class="text text_fz-15 text_fw-400 text_lh-25">
+                        <input class="contact_input contact_input-name" type="name" name="userName" id="userName"
+                            placeholder="Mike" required>
+                        <input class="contact_input contact_input-email" type="email" name="userEmail" id="userEmail"
+                            placeholder="Email" required>
+                        <textarea form="feedBackForm" name="userMessage" id="userMessage" class=" contact_input contact_input-message"
+                            placeholder="Messasge" required></textarea>
+                        <input type="submit" value="submit" class="button button_size-m button-hoverable button_borderColor-01 button_textColor-02">
+                    </form>
+                </div>
+                <div class="contact_info">
+                    <h4 class="info_h4 text text_tt-uper text_fz-20 text_color-02">Contact Info</h4>
+                    <p class="info_p text text_color-05 text_fz-15 text_fw-400 text_lh-28">Duis sed odio sit amet nibh
+                        vulputate
+                        cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec
+                        tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat</p>
+                    <div class="info_item">
+                        <div class="info_icon icon icon_size-32 icon_fill-color02 icon_bdc-color01">
+                            <svg class="svg-size19" viewBox="0 0 32 32" role="img" focusable="false" aria-hidden="true">
+                                <path d="M16 0c-5.523 0-10 4.477-10 10 0 10 10 22 10 22s10-12 10-22c0-5.523-4.477-10-10-10zM16 16c-3.314 0-6-2.686-6-6s2.686-6 6-6 6 2.686 6 6-2.686 6-6 6z"></path>
+                            </svg>
+                        </div>
+                        <div class="info_iconDescription text_color-02 text_fz-16 text_fw-400 text_lh-25 text_ls-m032">
+                            13/2 Elizabeth St, Melbourne VIC 3000, Australia</div>
+                    </div>
+                    <div class="info_item">
+                        <div class="info_icon icon icon_size-32 icon_fill-color02 icon_bdc-color01">
+                            <svg class="svg-size19" viewBox="0 0 32 32" role="img" focusable="false" aria-hidden="true">
+                                <path d="M2.126 1.188c1.278-1.281 5.141-1.495 5.17-0.817 0.029 0.677 3.479 8.191 3.509 8.869s-2.274 2.987-2.948 3.663c-0.668 0.669 4.508 6.533 4.606 6.644 0.11 0.099 5.96 5.287 6.628 4.617 0.674-0.676 2.979-2.985 3.653-2.955 0.676 0.029 8.173 3.487 8.849 3.518 0.676 0.029 0.463 3.9-0.815 5.182-1.093 1.095-6.752 5.071-16.592-2.029-1.079-0.622-2.788-2.049-5.38-4.646-0.001-0.001-0.003-0.003-0.005-0.004-0.002-0.003-0.004-0.004-0.006-0.006s-0.004-0.004-0.006-0.006c-0.001-0.002-0.003-0.004-0.004-0.005-2.59-2.598-4.014-4.312-4.635-5.393-7.083-9.864-3.116-15.537-2.024-16.632z"></path>
+                            </svg>
+                        </div>
+                        <div class="info_iconDescription text_color-02 text_fz-16 text_fw-400 text_lh-25 text_ls-m032">
+                            +61 3146 8728, +61 0987 6543</div>
+                    </div>
+                    <div class="info_item">
+                        <div class="info_icon icon icon_size-32 icon_fill-color02 icon_bdc-color01">
+                            <svg class="svg-size19" viewBox="0 0 32 32" role="img" focusable="false" aria-hidden="true">
+                                <path d="M15.996 15.457l16.004-7.539v-3.918h-32v3.906zM16.004 19.879l-16.004-7.559v15.68h32v-15.656z"></path>
+                            </svg>
+                        </div>
+                        <div class="info_iconDescription text_color-02 text_fz-16 text_fw-400 text_lh-25 text_ls-m032">
+                            support@envato.net</div>
+                    </div>
+
+                </div>
+            </div>
+
+
         </div>
         <div class="googleMap">
             <div class="googleMap_topBorder"></div>
@@ -440,8 +502,9 @@
 
 
         <div class="narrowBlock footer">
-            <div class="footer_content text text_tt-uper text_fz-14 text_fw-400 text_color-02">
-                © MINI 2014, All Right Reserves | Designed By bigpsfan & Metrothemes
+            <div class="footer_content text text_tt-uper text_fz-14 text_fw-600 text_color-02">
+                © MINI 2014, All Right Reserves <span class="text_color-25">|</span> Designed By bigpsfan &
+                Metrothemes
             </div>
             <div class="socNet socNet_size-l socNet_fill-color02">
 
@@ -490,7 +553,6 @@
                 </a>
             </div>
         </div>
-
 </body>
 
 </html>

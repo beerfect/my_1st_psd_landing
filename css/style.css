@@ -36,6 +36,16 @@
 
 /* HEADING MARKUP (END) */
 
+/* HEADER (START) */
+
+.header {
+	width: 100%;
+	height: 200px;
+	background-color: #666;
+}
+
+/* HEADER (END) */
+
 /* ABOUT (START) */
 
 .about_ourStory {margin-top: 150px;padding-bottom: 120px;border-bottom: 2px solid var(--color03);}
@@ -120,11 +130,32 @@
 
 /* FACTS (END) */
 
+/* CONTACT (START) */
+
+.contact_heading {margin-bottom: 150px;}
+.contactWrapper {display: flex;}
+
+.contact_form {width: 620px;margin-right: 60px;}
+.contact_input {width: calc( 100% - 34px );height: 45px;margin: 0  0 10px;padding-left: 28px;outline: 2px solid var(--color16);}
+.contact_input:focus {outline: 2px solid var(--color01);}
+.contact_input-message {height: 150px;	padding-top: 17px;resize: none;}
+
+.contact_info {width: 468px;}
+.info_item {display: flex;}
+.info_icon {margin-right: 20px;}
+.info_iconDescription {display: flex;align-items: center;}
+.info_h4 {margin-bottom: 22px;}
+.info_p {margin-bottom: 26px;}
+.info_item {margin-bottom: 5px;}
+
+/* CONTACT (END) */
+
 /* GOOGLEMAP (START) */
 
 /* мой вариант */
 
 .googleMap{
+	margin-top: 100px;
 	width: 1970px;
 	height: 600px;
 	position: relative;
@@ -180,8 +211,6 @@
 
 
 /* GOOGLEMAP (END) */
-
-
 
 /* FOOTER (START) */
 
