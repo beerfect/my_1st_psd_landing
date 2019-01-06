@@ -49,6 +49,7 @@
 .text_fw-600 {font-weight: 600;}
 .text_fw-700 {font-weight: 700;}
 
+.text_ls-m04 {letter-spacing: -0.4px;}
 .text_ls-m09 {letter-spacing: -0.9px;}
 .text_ls-m24 {letter-spacing: -2.4px;}
 .text_ls-m42 {letter-spacing: -4.2px;}
@@ -73,6 +74,7 @@
 .text_fz-18 {font-size: 18px;}
 .text_fz-20 {font-size: 20px;}
 .text_fz-22 {font-size: 22px;}
+.text_fz-24 {font-size: 24px;}
 .text_fz-25 {font-size: 25px;}
 .text_fz-30 {font-size: 30px;}
 .text_fz-40 {font-size: 40px;}
