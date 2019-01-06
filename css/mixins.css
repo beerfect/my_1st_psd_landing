@@ -37,6 +37,7 @@
 .text_tt-uper {text-transform: uppercase;}
 
 .text_ta-center {text-align: center;}
+.text_ta-right {text-align: right;}
 
 .text_fs-italic {font-style: italic;}
 
@@ -87,6 +88,7 @@
 .text_lh-25{line-height: 25px;}
 .text_lh-26{line-height: 26px;}
 .text_lh-28{line-height: 28px;}
+.text_lh-30{line-height: 30px;}
 .text_lh-32{line-height: 32px;}
 .text_lh-33{line-height: 33px;}
 .text_lh-45{line-height: 45px;}
@@ -204,3 +206,12 @@
 .button_borderColor-fff {border-color: #fff;}
 
 /* BUTTON MIXINS (END) */
+
+/* BLOG ICON'S MIXINS  (START)*/
+
+.post__icon--slideShow {height: 44px;background: url(../img/blog/slideshow.svg) no-repeat center;}
+.post__icon--photo {height: 44px;background: url(../img/blog/photo.svg) no-repeat center;}
+.post__icon--video {height: 44px;background: url(../img/blog/video.svg) no-repeat center;}
+.post__icon--audio {height: 44px;background: url(../img/blog/audio.svg) no-repeat center;}
+
+/* BLOG ICON'S MIXINS  (END)*/
