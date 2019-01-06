@@ -140,6 +140,31 @@
 
 /* FACTS (END) */
 
+/* CLIENTS (START) */
+
+.clients_header {margin-top: 210px;}
+
+.client_l-wrapper {
+	margin-top: 20px;
+	width: 1172px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.clients_list_item {
+	box-sizing: border-box;
+	width: 257px;
+	height: 162px;
+	border: 2px solid rgba(255, 255, 255, 0.25);
+}
+
+.clients_list_item-1 {background: url(../img/clientsLogos/clients_client-1.png) no-repeat center;}
+.clients_list_item-2 {background: url(../img/clientsLogos/clients_client-2.png) no-repeat center;}
+.clients_list_item-3 {background: url(../img/clientsLogos/clients_client-3.png) no-repeat center;}
+.clients_list_item-4 {background: url(../img/clientsLogos/clients_client-4.png) no-repeat center;}
+
+/* CLIENTS (END) */
+
 /* CONTACT (START) */
 
 .contact_heading {margin-bottom: 150px;}
