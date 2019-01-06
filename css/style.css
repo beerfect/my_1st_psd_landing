@@ -150,8 +150,6 @@
 	grid-template-columns: 1fr 1fr;
 }
 
-/* .postGrid {height: 487px;} */
-
 .postGrid {
 	display: grid;
 	grid-template-columns: 120px 425px;
@@ -251,7 +249,7 @@
 
 /* мой вариант */
 
-.googleMap{
+/* .googleMap{
 	margin-top: 100px;
 	width: 1970px;
 	height: 600px;
@@ -278,11 +276,12 @@
 	height: 0;
 	border-top: 100px solid transparent;
 	border-right: 1970px solid #fff;
-}
+} */
 
 /* авторский вариант */
 
 .googleMapImgVersion {
+	margin-top: 100px;
 	width: 1970px;
 	height: 600px;
 	background-image: url(../img/googleMap_bg.png);
