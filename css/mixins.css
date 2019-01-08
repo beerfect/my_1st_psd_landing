@@ -29,7 +29,6 @@
 }
 
 /* VARIABLES (END) */
-
 /* TEXT MIXINS (START) */
 
 .text{margin: 0;}
@@ -52,6 +51,7 @@
 
 .text_ls-m04 {letter-spacing: -0.4px;}
 .text_ls-m09 {letter-spacing: -0.9px;}
+.text_ls-m108{letter-spacing: -1.08px;}
 .text_ls-m24 {letter-spacing: -2.4px;}
 .text_ls-m42 {letter-spacing: -4.2px;}
 .text_ls-m028 {letter-spacing: -0.28px;}
@@ -97,7 +97,6 @@
 .text_lh-114{line-height: 114px;}
 
 /* TEXTS MIXINS (END) */
-
 /* ICONS MIXINS (START) */
 
 .icon {
@@ -140,7 +139,6 @@
 .svg-size62 {width: 62px; height: 62px;}
 
 /* ICONS MIXINS (END)*/
-
 /* SOCNET MIXINS (START) */ 
 
 .socNet{display: flex; justify-content: space-between;}
@@ -151,7 +149,7 @@
 .socNet_a-fill-color3 {fill: var(--text-color-3)}
 .socNet_a-fill-color5 {fill: var(--text-color-5)}
 
-.socNet_a :hover {fill: var(--color01);}
+.socNet_a :hover {fill: var(--color01); transition: .1s}
 .socNet_size-s { width: 148px;}
 .socNet_size-l { width: 246px;}
 
@@ -164,7 +162,6 @@
 .link_rss {width: 1em;height: 1em;}
 
 /* SOCNET MIXINS (END) */ 
-
 /* BREAK DIV MIXINS (START) */
 
 .breakDiv {height: 4px;}
@@ -176,7 +173,6 @@
 .breakDiv_color-color14 {background-color: var(--color14);}
 
 /* BREAK DIV MIXINS (END) */
-
 /* BUTTON MIXINS (START) */
 
 .button {
@@ -185,6 +181,7 @@
 	border-style: solid;
 	text-transform: uppercase;
 	cursor: pointer;
+	transition: 0.3s;	
 }
 
 .button-hoverable:hover{
@@ -206,7 +203,6 @@
 .button_borderColor-fff {border-color: #fff;}
 
 /* BUTTON MIXINS (END) */
-
 /* BLOG ICON'S MIXINS  (START)*/
 
 .post__icon--slideShow {height: 44px;background: url(../img/blog/slideshow.svg) no-repeat center;}

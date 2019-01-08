@@ -34,11 +34,56 @@
 
 <body>
     <div class="wrapper outline-green">
-        <div class="header">
-            <button class="button button_size-l button-hoverable button_borderColor-fff button_textColor-fff">Learn
-                more</button>
+
+        <!-- wrapper for background switchers -->
+
+        <div class="header__wrapper">
+
+            <input id="headerBackground-1" class="header__input headerBackground-1" type="radio" name="headerBackground" checked>
+            <input id="headerBackground-2" class="header__input headerBackground-2" type="radio" name="headerBackground">
+            <input id="headerBackground-3" class="header__input headerBackground-3" type="radio" name="headerBackground">
+
+            <div class="header">
+
+                <div class="header__heading">
+
+                    <div class="header__ligo text_color-fff text_tt-uper text_ff-montserrat text_fz-45 text_fw-700">Mini</div>
+                   
+                    <nav>
+                        <ul class="header__list text_fz-18 text_fw-400 text_tt-uper text_ls-m108">
+                            <li class="list__item"><a class="list__link" href="#about">About</a></li>
+                            <li class="list__item"><a class="list__link" href="#team">Team</a></li>
+                            <li class="list__item"><a class="list__link" href="#services">Services</a></li>
+                            <li class="list__item"><a class="list__link" href="#works">Works</a></li>
+                            <li class="list__item"><a class="list__link" href="#blog">Blog</a></li>
+                            <li class="list__item"><a class="list__link" href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+                <h1 class="header__h1 text text_ta-center text_color-fff text_tt-uper">
+
+                    <span class="text_fz-45 text_fw-300 text_ls-m09">Best Creative Studio</span>
+                    <span class="header__h1__layout text_fw-700 text_ls-m42 text_lh-80 text_fz-70">Design / Branding / WordPres</span>
+                    <span class="text_fz-40 text_fw-300 text_ls-m24">We Make Great Ideas Happen</span>  
+
+                </h1>
+
+                <button class="button button_size-l button-hoverable button_borderColor-fff button_textColor-fff">Learn more</button>
+
+                <div class="label__wrapper">
+                    <label class="label label-1" for="headerBackground-1"></label>
+                    <label class="label label-2" for="headerBackground-2"></label>
+                    <label class="label label-3" for="headerBackground-3"></label>
+                </div>
+
+            </div>
+
         </div>
+
         <div class="narrowBlock about">
+            <a name="about" href="#"></a>
             <div class="heading">
                 <h2 class="heading__header text text_fz-30 text_fw-700 text_lh-25 text_color-3 text_tt-uper">About</h2>
                 <p class="heading__description text_fz-16 text_tt-uper text_lh-25 text_color-11">Proin gravida nibh vel
@@ -123,6 +168,7 @@
 
         </div>
         <div class="narrowBlock team">
+            <a name="team" href="#"></a>
             <div class="heading">
                 <h2 class="heading__header text text_fz-30 text_fw-700 text_lh-25 text_color-3 text_tt-uper">Team</h2>
                 <p class="heading__description text_fz-16 text_tt-uper text_lh-25 text_color-11">Proin gravida nibh vel
@@ -381,6 +427,7 @@
 
         </div>
         <div class="narrowBlock services">
+            <a href="#" name="services"></a>
             <div class="heading">
                 <h2 class="heading__header text text_fz-30 text_fw-700 text_lh-25 text_color-3 text_tt-uper">Service</h2>
                 <p class="heading__description text_fz-16 text_tt-uper text_lh-25 text_color-11">Proin gravida nibh vel
@@ -395,6 +442,7 @@
         </div>
         <div class="wideBlock testimonial"></div>
         <div class="narrowBlock works">
+            <a href="#" name="works"></a>
             <div class="heading">
                 <h2 class="heading__header text text_fz-30 text_fw-700 text_lh-25 text_color-3 text_tt-uper">Portfolio</h2>
                 <p class="heading__description text_fz-16 text_tt-uper text_lh-25 text_color-11">Proin gravida nibh vel
@@ -406,6 +454,7 @@
         </div>
         <div class="wideBlock tweet"></div>
         <div class="narrowBlock blog">
+            <a href="#" name="blog"></a>
             <div class="heading blog__heading">
                 <h2 class="heading__header text text_fz-30 text_fw-700 text_lh-25 text_color-3 text_tt-uper">Blog</h2>
                 <p class="heading__description text_fz-16 text_tt-uper text_lh-25 text_color-11">Proin gravida nibh vel
@@ -508,6 +557,7 @@
             </div>
         </div>
         <div class="narrowBlock contact">
+            <a href="#" name="contact"></a>
             <div class="heading contact_heading">
                 <h2 class="heading__header text text_fz-30 text_fw-700 text_lh-25 text_color-3 text_tt-uper">Contact</h2>
                 <p class="heading__description text_fz-16 text_tt-uper text_lh-25 text_color-11">Proin gravida nibh vel
@@ -520,7 +570,7 @@
             <div class="contactWrapper">
                 <div class="contact_form form ">
                     <h4 class="info_h4 text text_tt-uper text_fz-20 text_color-02">Drop Us A Message</h4>
-                    <form  action="contactForm.php" method="POST" id="feedBackForm" class="text text_fz-15 text_fw-400 text_lh-25">
+                    <form action="contactForm.php" method="POST" id="feedBackForm" class="text text_fz-15 text_fw-400 text_lh-25">
                         <input class="contact_input contact_input-name" type="text" name="userName" id="userName"
                             placeholder="Mike" required>
                         <input class="contact_input contact_input-email" type="email" name="userEmail" id="userEmail"
@@ -639,8 +689,8 @@
                     </svg>
                 </a>
 
-                <a class="socNet_a" href="#"><svg class="link_rss" viewBox="0 0 32 32" dominant-baseline="central"
-                        role="img" focusable="false" aria-hidden="true">
+                <a class="socNet_a" href="#"><svg class="link_rss" viewBox="0 0 32 32" dominant-baseline="central" role="img"
+                        focusable="false" aria-hidden="true">
                         <path d="M4.259 23.467c-2.35 0-4.259 1.917-4.259 4.252 0 2.349 1.909 4.244 4.259 4.244 2.358 0 4.265-1.895 4.265-4.244-0-2.336-1.907-4.252-4.265-4.252zM0.005 10.873v6.133c3.993 0 7.749 1.562 10.577 4.391 2.825 2.822 4.384 6.595 4.384 10.603h6.16c-0-11.651-9.478-21.127-21.121-21.127zM0.012 0v6.136c14.243 0 25.836 11.604 25.836 25.864h6.152c0-17.64-14.352-32-31.988-32z"></path>
                     </svg>
                 </a>
