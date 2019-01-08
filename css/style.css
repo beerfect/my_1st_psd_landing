@@ -391,3 +391,9 @@
 }
 
 /* FOOTER (END) */
+/* SCROLL CONTROL (START) */
+
+body{scroll-snap-type: y mandatory;}
+.scroll_tag{scroll-snap-align: start;}
+
+/* SCROLL CONTROL (END) */
