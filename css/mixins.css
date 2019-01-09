@@ -108,6 +108,7 @@
     border-width: 2px;
     flex-shrink: 0;
 }
+
 .icon_bgc-color01 {background-color: var(--color01);}
 .icon_bgc-color02 {background-color: var(--color02);}
 
@@ -134,6 +135,7 @@
 .svg-size19 {width: 19px; height: 19px;}
 .svg-size25 {width: 25px; height: 25px;}
 .svg-size27 {width: 27px; height: 27px;}
+.svg-size29 {width: 29px; height: 29px;}
 .svg-size32 {width: 32px; height: 32px;;}
 .svg-size40 {width: 40px; height: 40px;}
 .svg-size62 {width: 62px; height: 62px;}
@@ -171,6 +173,7 @@
 
 .breakDiv_color-color01 {background-color: var(--color01);}
 .breakDiv_color-color14 {background-color: var(--color14);}
+.breakDiv_color-colorFFF {background-color: #fff;}
 
 /* BREAK DIV MIXINS (END) */
 /* BUTTON MIXINS (START) */
@@ -191,7 +194,7 @@
 }
 
 .button_size-l{width: 160px;height: 42px; font-size: 15px; font-weight: 400;}
-.button_size-m{width: 130px;height: 38px; font-size: 14px; font-weight: 600;}
+.button_size-m{width: 130px;height: 38px; font-size: 14px; font-weight: 600; letter-spacing: -1px;}
 .button_size-s{width: 105px;height: 35px; font-size: 13px; font-weight: 700;}
 
 .button_textColor-fff {color: #fff;}
@@ -211,3 +214,10 @@
 .post__icon--audio {height: 44px;background: url(../img/blog/audio.svg) no-repeat center;}
 
 /* BLOG ICON'S MIXINS  (END)*/
+/* TABLE MIXINS (START) */
+
+.cell__bgc--03 {background-color: var(--color03);}
+.cell__bgc--06 {background-color: var(--color06);}
+.cell__bgc--22 {background-color: var(--color22);}
+
+/* TABLE MIXINS (END) */

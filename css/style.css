@@ -218,6 +218,105 @@
 .item_description {margin-top: 30px;}
 
 /* FACTS (END) */
+/* SERVICE (START) */
+
+.services__upperHalfWrapper {
+	padding: 130px 0 120px;
+	margin-bottom: 116px;
+	border-bottom: 2px solid var(--color03);
+	display: flex; 
+	justify-content: space-between;
+}
+
+.upperHalfWrapper__item {
+	width: 367px;
+	align-items: center;
+	text-align: center;
+}
+
+.services__icon {margin: 0 auto 22px;}
+
+.upperHalfWrapper__item:hover  > .icon {
+	background-color: var(--color01);
+	fill: #fff;
+	transition: .3s;
+}
+
+.bottomHalfWrapper__item:hover .icon {
+	background-color: var(--color01);
+	fill: #fff;
+	transition: .3s;
+}
+
+.services__bottomHalfWrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.bottomHalfWrapper__item {width: 310px;}
+
+.services__heading {margin-bottom: 19px;}
+
+.pricing__heading {
+	margin-top: 25px;
+	margin-bottom: 17px;
+}
+
+/* table */
+
+.pricing__table {
+	border: 1px solid var(--color03);
+	text-align: center;
+	width: 750px;
+	border-spacing: 0;
+	position: relative;
+}
+
+.pricing__table td {
+	border-collapse: collapse;
+	border-top: 1px solid var(--color03);
+}
+
+.table__row-1 {
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	height: 118px;
+}
+
+.table__row-2,
+.table__row-3,
+.table__row-4,
+.table__row-5 {
+	height: 50px;
+	color: var(--color05);
+	letter-spacing: -0.4px;
+}
+
+.table__breakDiv {margin: 10px auto 6px;}
+.table__row-6{height: 100px;}
+.table__button {margin-top: 8px;}
+
+.pricing__table::before,
+.pricing__table::after {
+	position: absolute;
+	content: "";
+	width: 250px;
+	height: 18px;
+	left: 250px;
+}
+
+.pricing__table::before{
+	background-color: var(--color01);
+	top: -16px;
+}
+
+.pricing__table::after{
+	background-color: var(--color03);
+	bottom: -18px;
+}	
+
+/* SERVICE (END) */
 /* BLOG (START) */
 
 .blog__heading { margin-bottom: 150px;}
@@ -393,7 +492,7 @@
 /* FOOTER (END) */
 /* SCROLL CONTROL (START) */
 
-body{scroll-snap-type: y mandatory;}
-.scroll_tag{scroll-snap-align: start;}
+/* body{scroll-snap-type: y mandatory;}
+.scroll_tag{scroll-snap-align: start;} */
 
 /* SCROLL CONTROL (END) */
